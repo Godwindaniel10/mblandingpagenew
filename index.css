@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
 
 * {
   padding: 0;
@@ -38,6 +39,20 @@ body {
 }
 .title > .title-inner {
   display: inline-block;
+}
+#spin {
+  color:#B3541E;
+}
+#spin:after {
+  content:"";
+  animation: spin 8s linear infinite;
+}
+@keyframes spin {
+  0% { content:"" }
+  20% { content: "Collateral" }
+  50% { content: "Bvn Needed" }
+  70% { content: "Guarantor" }
+  100% { content: "Bank Statement" }
 }
 @keyframes text-clip {
   from {
@@ -80,7 +95,10 @@ body {
 }
 .mozart-inner {
   animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
-  margin-bottom: 6rem;
+  margin-bottom: 7rem;
+  font-family: 'Kite One', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
 }
 .title {
   animation: outer-left 1s 1s ease both;
@@ -90,7 +108,7 @@ body {
 }
 .mozart {
   display: inline-block;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 .image {
   grid-row: 1;
@@ -193,7 +211,11 @@ body:active * {
   }
   .mozart-inner {
     margin-bottom: 6rem;
+    font-size: 4vw;
   }
+  #spin {
+  color:#fff;
+}
   .mozart {
     margin-top: 4rem;
   }
@@ -245,9 +267,6 @@ body:active * {
     width: 100%;
     line-height: 50px;
     font-family: 'Averia Libre', cursive;
-  }
-  .mozart-inner {
-    margin-bottom: 8rem;
   }
   .mozart {
     margin-top: 4rem;
