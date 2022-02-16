@@ -642,3 +642,18 @@ body:active * {
   }
 }
 
+
+
+/* form */
+
+body {
+ 
+}
+.form-container {
+  background: #db9f27;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
