@@ -478,7 +478,7 @@ body:active * {
   animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
   margin-bottom: 8rem;
   font-family: 'Quicksand', sans-serif;
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: bold;
   margin-top: 2rem;
   color: rgb(34, 34, 34); 
@@ -486,7 +486,7 @@ body:active * {
 #spin {
   color:#B3541E;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 17px;
 }
 .mainPageContainer {
   width: 100%;
