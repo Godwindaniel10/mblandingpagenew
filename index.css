@@ -165,7 +165,7 @@
  position: absolute;
  bottom: 0;
  text-align: center;
- padding: 20px;
+ padding: 15px;
 }
 .body2 .contact-footer .footer-text {
   color: rgba(255, 255, 255, 0.637);
@@ -188,7 +188,7 @@
     color: rgba(255, 255, 255, 0.637);
     font-size: 3vw;
     font-family: 'Quicksand', sans-serif;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
   }
   .body2 .contact-footer .right {
     color: rgba(255, 255, 255, 0.89);
