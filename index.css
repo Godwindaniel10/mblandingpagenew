@@ -366,6 +366,130 @@
     position: relative;
     display: none;
   }
+
+  /* contact */
+  .contact-us-bg {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    background: #FFF1AF;
+    background-image:
+  linear-gradient(
+    #000000a9, 
+    #000000d5
+    ), url(./img/ladingPageImg2.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  }
+  .contact-bg {
+    width: 100%;
+    height: 300px;
+    border-radius: 0 0 30px 30px;
+    background: rgba( 0, 0, 0, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(92, 94, 112, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+   
+  }
+  .contact-us-header {
+    color: #fff;
+    text-align: center;
+    font-size: 14vw;
+   margin-top: 5rem;
+   font-family: 'Luckiest Guy', cursive;
+   color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+  }
+  
+  .contact-bg .social-btn {
+    width: 100%;
+    height: auto;
+    padding: 20px 80px;
+  }
+  .btn1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn2 {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 2rem auto 0 auto;
+  }
+  .contact-bg .social-btn .facebook ,
+  .contact-bg .social-btn .twitter,
+  .contact-bg .social-btn .insta,
+  .contact-bg .social-btn .tiktok,
+  .contact-bg .social-btn .linked,
+  .contact-bg .social-btn .whatsapp,
+  .contact-bg .social-btn .telegram{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    cursor: pointer;
+  }
+  .contact-bg .social-btn .facebook:hover ,
+  .contact-bg .social-btn .twitter:hover,
+  .contact-bg .social-btn .insta:hover,
+  .contact-bg .social-btn .tiktok:hover,
+  .contact-bg .social-btn .linked:hover,
+  .contact-bg .social-btn .whatsapp:hover,
+  .contact-bg .social-btn .telegram:hover {
+    background: transparent;
+    transition: all 550ms;
+  }
+  
+  .contact-bg .address {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    padding: 20px 70px;
+  }
+  .contact-bg .address .ph {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Luckiest Guy', cursive;
+    color: transparent;
+     -webkit-text-stroke-width: 0.5px;
+     -webkit-text-stroke-color: rgb(255, 255, 255);
+  }
+  .contact-bg .address .pa {
+    color: rgb(219, 219, 219);
+    margin-top: 0.7rem;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .contact-footer {
+    width: 100%;
+    height: auto;
+    background: rgba( 0, 0, 0, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 30px 30px 0 0;
+   position: absolute;
+   bottom: 0;
+   text-align: center;
+   padding: 20px;
+  }
+  .contact-footer .footer-text {
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 1.5rem;
+  }
+  .contact-footer .right {
+    color: rgba(255, 255, 255, 0.89);
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -580,19 +704,140 @@ video {
     font-family: 'Quicksand', sans-serif;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 }
+
+
+.contact-us-bg {
+  width: 100%;
+  height: 130vh;
+  padding: 0;
+  background: #000000;
+  background-image:
+linear-gradient(
+  #000000a9, 
+  #000000d5
+  ), url(./img/ladingPageImg2.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+}
+.contact-bg {
+  width: 600px;
+  height: auto;
+  border-radius: 0 0 30px 30px;
+  background: rgba( 0, 0, 0, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba(92, 94, 112, 0.37);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  padding: 30px 80px;
+}
+.contact-us-header {
+  color: #fff;
+  text-align: center;
+  font-size: 14vw;
+ margin-top: 5rem;
+ font-family: 'Luckiest Guy', cursive;
+ color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.contact-bg .social-btn {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.btn1 {
+  display: flex;
+  justify-content: space-between;
+}
+.btn2 {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+  margin: 1rem auto 0 auto;
+}
+.contact-bg .social-btn .facebook ,
+.contact-bg .social-btn .twitter,
+.contact-bg .social-btn .insta,
+.contact-bg .social-btn .tiktok,
+.contact-bg .social-btn .linked,
+.contact-bg .social-btn .whatsapp,
+.contact-bg .social-btn .telegram{
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  cursor: pointer;
+}
+.contact-bg .social-btn .facebook:hover ,
+.contact-bg .social-btn .twitter:hover,
+.contact-bg .social-btn .insta:hover,
+.contact-bg .social-btn .tiktok:hover,
+.contact-bg .social-btn .linked:hover,
+.contact-bg .social-btn .whatsapp:hover,
+.contact-bg .social-btn .telegram:hover {
+  background: transparent;
+  transition: all 550ms;
+}
+
+.contact-bg .address {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  padding: 20px;
+}
+.contact-bg .address .ph {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Luckiest Guy', cursive;
+  color: transparent;
+   -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.contact-bg .address .pa {
+  color: rgb(219, 219, 219);
+  margin-top: 0.7rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+.contact-footer {
+  width: 100%;
+  height: auto;
+  background: rgba( 0, 0, 0, 0.25 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 30px 30px 0 0;
+ position: absolute;
+ bottom: 0;
+ text-align: center;
+ padding: 20px;
+}
+.contact-footer .footer-text {
+  color: rgba(255, 255, 255, 0.637);
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 1.5rem;
+}
+.contact-footer .right {
+  color: rgba(255, 255, 255, 0.89);
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+
+
+
+
