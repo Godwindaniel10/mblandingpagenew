@@ -179,27 +179,33 @@
     color: rgb(105, 25, 25);
     height: 28px;
     font-family: 'Cinzel', serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bolder;
       
   }
-  .navBarContainer .loginButton {
-  border: none;
-  text-decoration: none;
-  font-size: 16px;
-  color: #000;
-  margin-right: 2rem;
-  font-weight: bold;
-}
-.navBarContainer .signUpButton {
-  border: none;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 8px 20px;
-  border-radius: 10px;
-  background: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-}
+  .navBarContainer .nav {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+  }
+  .navBarContainer .about-us {
+    border: none;
+    text-decoration: none;
+    font-size: 3.5vw;
+    padding: 6px 13px;
+    border-radius: 100px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .navBarContainer .contact-us {
+    border: none;
+    font-size: 4vw;
+    color: #000;
+    font-weight: bold;
+  }
 .mozart-inner {
   animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
   margin-bottom: 8rem;
