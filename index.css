@@ -366,6 +366,7 @@
     position: relative;
     display: none;
   }
+  }
 
   /* contact */
   .contact-us-bg {
@@ -706,7 +707,7 @@ video {
 
 }
 
-}
+
 
 
 .contact-us-bg {
