@@ -186,9 +186,14 @@
 
   .body2 .contact-footer .footer-text {
     color: rgba(255, 255, 255, 0.637);
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: 'Quicksand', sans-serif;
     margin-bottom: 1.5rem;
+  }
+  .body2 .contact-footer .right {
+    color: rgba(255, 255, 255, 0.89);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10px;
   }
   .landingPageContainer {
     width: 100%;
