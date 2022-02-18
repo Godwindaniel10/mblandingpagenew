@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div class="contact-us-bg">
@@ -33,12 +34,18 @@
                 <p class="pa">1st floor, Block B Sura shopping complex, Lagos Island, Nigeria</p>
             </div>
         </div>
-        <div class="contact-us-header">Contact us</div>
+        <div class="contact-us-header" data-aos="fade-down-right" data-aos-offset="200"
+        data-aos-delay="150"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out">Contact us</div>
         <div class="contact-footer">
             <p class="footer-text">A product of Toplevelz Cooperative Multipurpose society.</p>
             <small class="right">All rights reserved</small>
         </div>
     </div>
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
