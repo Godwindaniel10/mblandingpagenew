@@ -12,11 +12,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+.body2 {
+  position: relative;
+}
 /* landing page */
 .landingPageContainer {
   width: 100%;
-  height: 120vh;
+  height: 150vh;
   padding: 0 120px;
   background-image:
   linear-gradient(
@@ -155,6 +157,26 @@
 }
 
 
+.body2 .contact-footer {
+  width: 100%;
+  height: auto;
+  background: rgb(0, 0, 0);
+  border-radius: 0;
+ position: absolute;
+ bottom: 0;
+ text-align: center;
+ padding: 20px;
+}
+.body2 .contact-footer .footer-text {
+  color: rgba(255, 255, 255, 0.637);
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 1.5rem;
+}
+.body2 .contact-footer .right {
+  color: rgba(255, 255, 255, 0.89);
+  font-family: 'Quicksand', sans-serif;
+}
 
 
 
@@ -162,9 +184,15 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+  .body2 .contact-footer .footer-text {
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 4vw;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 1.5rem;
+  }
   .landingPageContainer {
     width: 100%;
-    height: 120vh;
+    height: 140vh;
     padding: 0 20px;
     background: #FFF1AF;
     background-image:
@@ -276,7 +304,7 @@
 
     .landingPageContainer {
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     padding: 0 70px;
     background: #FFF1AF;
     background-image:
