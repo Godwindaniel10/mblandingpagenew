@@ -167,7 +167,7 @@
  position: absolute;
  bottom: 0;
  text-align: center;
- padding: 15px;
+ padding: 8px 20px;
 }
 .body2 .contact-footer .footer-text {
   color: rgba(255, 255, 255, 0.637);
@@ -188,14 +188,14 @@
 
   .body2 .contact-footer .footer-text {
     color: rgba(255, 255, 255, 0.637);
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-family: 'Quicksand', sans-serif;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
   }
   .body2 .contact-footer .right {
     color: rgba(255, 255, 255, 0.89);
     font-family: 'Quicksand', sans-serif;
-    font-size: 10px;
+    font-size: 8px;
   }
   .landingPageContainer {
     width: 100%;
