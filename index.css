@@ -181,6 +181,28 @@
 }
 
 
+.contact-footer-about {
+  width: 100%;
+  height: auto;
+  background: rgb(0, 0, 0);
+  border-radius: 0;
+ position: absolute;
+ bottom: 0;
+ text-align: center;
+ padding: 8px 20px;
+ z-index: 1;
+}
+.contact-footer-about .footer-text {
+  color: rgba(255, 255, 255, 0.637);
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 1.5rem;
+}
+.contact-footer-about .right {
+  color: rgba(255, 255, 255, 0.89);
+  font-family: 'Quicksand', sans-serif;
+}
+
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -548,15 +570,14 @@ video {
 #home-top-video {
     left: 0%;
     top: 0%;
-    height: 160vh;
+    height: 230vh;
     width: 100%;
     overflow: hidden;
     position: absolute;
     z-index: -1;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding:  0 100px;
+    padding:  150px 100px 0 100px;
   }
   .intro {
       width: 900px;
@@ -620,8 +641,7 @@ video {
     z-index: -1;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding:  0 20px;
+    padding:  100px 20px 0 20px;
   }
   .intro {
     width: 100%;
@@ -648,6 +668,17 @@ video {
   letter-spacing: 2px;
   font-size: 6.5vw;
   margin-top: 4rem;
+}
+.contact-footer-about .footer-text {
+  color: rgba(255, 255, 255, 0.637);
+  font-size: 2.5vw;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 0.3rem;
+}
+.contact-footer-about .right {
+  color: rgba(255, 255, 255, 0.89);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 8px;
 }
 }
 
