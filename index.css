@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kite+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap");
 
 * {
   padding: 0;
@@ -20,13 +19,10 @@
 /* landing page */
 .landingPageContainer {
   width: 100%;
-  height: 150vh;
+  height: 120vh;
   padding: 0 120px;
-  background-image:
-  linear-gradient(
-    #fff2afa9, 
-    #fff2afd5
-    ), url(./img/ladingPageImg2.jpg);
+  background-image: linear-gradient(#fff2afa9, #fff2afd5),
+    url(./img/ladingPageImg2.jpg);
   background-position: center;
   background-size: cover;
   /*background: #FFF1AF;*/
@@ -42,10 +38,9 @@
 .navBarContainer .logo {
   color: rgb(105, 25, 25);
   height: 50px;
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
   font-size: 30px;
   font-weight: bolder;
-    
 }
 .navBarContainer .nav {
   height: auto;
@@ -93,18 +88,16 @@
   filter: drop-shadow(15px 15px 25px #222);
 }
 
-
-
 .boxText {
   font-size: 15px;
   font-weight: bold;
 }
 .z1 .p1 {
   font-size: 40px;
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   font-weight: bolder;
   line-height: 60px;
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   padding-bottom: 2rem;
 }
 .z1 .p2 {
@@ -114,7 +107,7 @@
   margin-bottom: 4rem;
 }
 .z1 span {
-  background: -webkit-linear-gradient(#db9f27, #9B0000);
+  background: -webkit-linear-gradient(#db9f27, #9b0000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -129,116 +122,117 @@
   cursor: pointer;
 }
 .z1 .signUpButton:hover {
-  background: #AE431E;
+  background: #ae431e;
   transition: all 550ms;
 }
 .mozart-inner {
   animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
   margin-bottom: 8rem;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 20px;
   font-weight: bold;
   margin-top: 2rem;
-  color: rgb(34, 34, 34); 
+  color: rgb(34, 34, 34);
 }
 #spin {
-  color:#B3541E;
+  color: #b3541e;
   font-weight: bolder;
   font-size: 25px;
 }
 #spin:after {
-  content:"";
+  content: "";
   animation: spin 8s linear infinite;
 }
 @keyframes spin {
-  0% { content:"" }
-  20% { content: "Collateral" }
-  50% { content: "Bvn Needed" }
-  70% { content: "Guarantor" }
-  100% { content: "Bank Statement" }
+  0% {
+    content: "";
+  }
+  20% {
+    content: "Collateral";
+  }
+  50% {
+    content: "Bvn Needed";
+  }
+  70% {
+    content: "Guarantor";
+  }
+  100% {
+    content: "Bank Statement";
+  }
 }
-
 
 .body2 .contact-footer {
   width: 100%;
   height: auto;
   background: rgb(0, 0, 0);
   border-radius: 0;
- position: absolute;
- bottom: 0;
- text-align: center;
- padding: 8px 20px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 8px 20px;
 }
 .body2 .contact-footer .footer-text {
   color: rgba(255, 255, 255, 0.637);
   font-size: 16px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   margin-bottom: 1.5rem;
 }
 .body2 .contact-footer .right {
   color: rgba(255, 255, 255, 0.89);
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
-
 
 .contact-footer-about {
   width: 100%;
   height: auto;
   background: rgb(0, 0, 0);
   border-radius: 0;
- position: absolute;
- bottom: 0;
- text-align: center;
- padding: 8px 20px;
- z-index: 1;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 8px 20px;
+  z-index: 1;
 }
 .contact-footer-about .footer-text {
   color: rgba(255, 255, 255, 0.637);
   font-size: 16px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   margin-bottom: 1.5rem;
 }
 .contact-footer-about .right {
   color: rgba(255, 255, 255, 0.89);
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
-
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
   .body2 .contact-footer .footer-text {
     color: rgba(255, 255, 255, 0.637);
     font-size: 2.5vw;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     margin-bottom: 0.3rem;
   }
   .body2 .contact-footer .right {
     color: rgba(255, 255, 255, 0.89);
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 8px;
   }
   .landingPageContainer {
     width: 100%;
     height: 140vh;
     padding: 0 20px;
-    background: #FFF1AF;
-    background-image:
-  linear-gradient(
-    #fff2afa9, 
-    #fff2afd5
-    ), url(./img/ladingPageImg2.jpg);
-  background-position: center;
-  background-size: cover;
+    background: #fff1af;
+    background-image: linear-gradient(#fff2afa9, #fff2afd5),
+      url(./img/ladingPageImg2.jpg);
+    background-position: center;
+    background-size: cover;
   }
   .navBarContainer .logo {
     color: rgb(105, 25, 25);
     height: 28px;
-    font-family: 'Cinzel', serif;
+    font-family: "Cinzel", serif;
     font-size: 16px;
     font-weight: bolder;
-      
   }
   .navBarContainer .nav {
     height: auto;
@@ -263,300 +257,283 @@
     color: #000;
     font-weight: bold;
   }
-.mozart-inner {
-  animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
-  margin-bottom: 8rem;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 4vw;
-  font-weight: bold;
-  margin-top: 2rem;
-  color: rgb(34, 34, 34); 
-}
-#spin {
-  color:#B3541E;
-  font-weight: bolder;
-  font-size: 17px;
-}
-.mainPageContainer {
-  width: 100%;
-  height: auto;
-  margin-top: 3rem;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 50px;
-}
-.mainPageContainer .z1 {
-  width: 100%;
-  height: auto;
-  padding-top: 0rem;
-}
-.z1 .p1 {
-  font-size: 27px;
-  color:rgb(0, 0, 0);
-  font-weight: bolder;
-  line-height: 40px;
-  font-family: 'EB Garamond', serif;
-  padding-bottom: 2rem;
-}
+  .mozart-inner {
+    animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+    margin-bottom: 8rem;
+    font-family: "Quicksand", sans-serif;
+    font-size: 4vw;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: rgb(34, 34, 34);
+  }
+  #spin {
+    color: #b3541e;
+    font-weight: bolder;
+    font-size: 17px;
+  }
+  .mainPageContainer {
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+  .mainPageContainer .z1 {
+    width: 100%;
+    height: auto;
+    padding-top: 0rem;
+  }
+  .z1 .p1 {
+    font-size: 27px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    line-height: 40px;
+    font-family: "EB Garamond", serif;
+    padding-bottom: 2rem;
+  }
 
-.z1 .signUpButton {
-  border: none;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 13px 50px;
-  border-radius: 10px;
-  background: #AE431E;
-  color: rgb(255, 255, 255);
-  margin-top: 0rem;
-}
+  .z1 .signUpButton {
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 13px 50px;
+    border-radius: 10px;
+    background: #ae431e;
+    color: rgb(255, 255, 255);
+    margin-top: 0rem;
+  }
 
-  .mainPageContainer 
-  .z2 {
+  .mainPageContainer .z2 {
     width: 100%;
     height: 550px;
     border-radius: 200px;
     background-image: url(./img/IMG-20211220-WA0054-removebg-preview.png);
     background-position: center;
     background-size: cover;
-    border: 10px solid #AE431E;
+    border: 10px solid #ae431e;
     position: relative;
     display: none;
   }
-  
 }
 
-
-
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 601px) and (max-width:950px) {
-
-
-    .landingPageContainer {
+@media only screen and (min-width: 601px) and (max-width: 950px) {
+  .landingPageContainer {
     width: 100%;
     height: 130vh;
     padding: 0 70px;
-    background: #FFF1AF;
-    background-image:
-  linear-gradient(
-    #fff2afa9, 
-    #fff2afd5
-    ), url(./img/ladingPageImg2.jpg);
-  background-position: center;
-  background-size: cover;
+    background: #fff1af;
+    background-image: linear-gradient(#fff2afa9, #fff2afd5),
+      url(./img/ladingPageImg2.jpg);
+    background-position: center;
+    background-size: cover;
   }
   .navBarContainer .logo {
     color: rgb(105, 25, 25);
     height: 28px;
-    font-family: 'Cinzel', serif;
+    font-family: "Cinzel", serif;
     font-size: 20px;
     font-weight: bolder;
-      
   }
   .navBarContainer .loginButton {
-  border: none;
-  text-decoration: none;
-  font-size: 16px;
-  color: #000;
-  margin-right: 2rem;
-  font-weight: bold;
-}
-.navBarContainer .signUpButton {
-  border: none;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 8px 20px;
-  border-radius: 10px;
-  background: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-}
-.mozart-inner {
-  animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
-  margin-bottom: 8rem;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 22px;
-  font-weight: bold;
-  margin-top: 2rem;
-  color: rgb(34, 34, 34); 
-}
-#spin {
-  color:#B3541E;
-  font-weight: bolder;
-  font-size: 25px;
-}
-.mainPageContainer {
-  width: 100%;
-  height: auto;
-  margin-top: 3rem;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 50px;
-}
-.mainPageContainer .z1 {
-  width: 100%;
-  height: auto;
-  padding-top: 0rem;
-}
-.z1 .p1 {
-  font-size: 35px;
-  color:rgb(0, 0, 0);
-  font-weight: bolder;
-  line-height: 60px;
-  font-family: 'EB Garamond', serif;
-  padding-bottom: 2rem;
-  width: 500px;
-}
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    margin-right: 2rem;
+    font-weight: bold;
+  }
+  .navBarContainer .signUpButton {
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .mozart-inner {
+    animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+    margin-bottom: 8rem;
+    font-family: "Quicksand", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: rgb(34, 34, 34);
+  }
+  #spin {
+    color: #b3541e;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  .mainPageContainer {
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+  .mainPageContainer .z1 {
+    width: 100%;
+    height: auto;
+    padding-top: 0rem;
+  }
+  .z1 .p1 {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    line-height: 60px;
+    font-family: "EB Garamond", serif;
+    padding-bottom: 2rem;
+    width: 500px;
+  }
 
-.z1 .signUpButton {
-  border: none;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 13px 50px;
-  border-radius: 10px;
-  background: #AE431E;
-  color: rgb(255, 255, 255);
-  margin-top: 0rem;
-}
+  .z1 .signUpButton {
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 13px 50px;
+    border-radius: 10px;
+    background: #ae431e;
+    color: rgb(255, 255, 255);
+    margin-top: 0rem;
+  }
 
-  .mainPageContainer 
-  .z2 {
+  .mainPageContainer .z2 {
     width: 100%;
     height: 550px;
     border-radius: 200px;
     background-image: url(./img/IMG-20211220-WA0054-removebg-preview.png);
     background-position: center;
     background-size: cover;
-    border: 10px solid #AE431E;
+    border: 10px solid #ae431e;
     position: relative;
     display: none;
   }
-  }
+}
 
-  /* contact */
-  .contact-us-bg {
-    width: 100%;
-    height: 100vh;
-    padding: 0;
-    background: #000000;
-    background-image:
-  linear-gradient(
-    #000000a9, 
-    #000000d5
-    ), url(./img/ladingPageImg2.jpg);
+/* contact */
+.contact-us-bg {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  background: #000000;
+  background-image: linear-gradient(#000000a9, #000000d5),
+    url(./img/ladingPageImg2.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
-  }
-  .contact-bg {
-    width: 100%;
-    height: 300px;
-    border-radius: 0 0 30px 30px;
-    background: rgba( 0, 0, 0, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba(92, 94, 112, 0.37);
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-   
-  }
-  .contact-us-header {
-    color: #fff;
-    text-align: center;
-    font-size: 14vw;
-   margin-top: 5rem;
-   font-family: 'Luckiest Guy', cursive;
-   color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-  }
-  
-  .contact-bg .social-btn {
-    width: 100%;
-    height: auto;
-    padding: 20px 80px;
-  }
-  .btn1 {
-    display: flex;
-    justify-content: space-between;
-  }
-  .btn2 {
-    display: flex;
-    justify-content: space-between;
-    width: 250px;
-    margin: 2rem auto 0 auto;
-  }
-  .contact-bg .social-btn .facebook ,
-  .contact-bg .social-btn .twitter,
-  .contact-bg .social-btn .insta,
-  .contact-bg .social-btn .tiktok,
-  .contact-bg .social-btn .linked,
-  .contact-bg .social-btn .whatsapp,
-  .contact-bg .social-btn .telegram{
-    width: 40px;
-    height: 40px;
-    border-radius: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    cursor: pointer;
-  }
-  .contact-bg .social-btn .facebook:hover ,
-  .contact-bg .social-btn .twitter:hover,
-  .contact-bg .social-btn .insta:hover,
-  .contact-bg .social-btn .tiktok:hover,
-  .contact-bg .social-btn .linked:hover,
-  .contact-bg .social-btn .whatsapp:hover,
-  .contact-bg .social-btn .telegram:hover {
-    background: transparent;
-    transition: all 550ms;
-  }
-  
-  .contact-bg .address {
-    width: 100%;
-    height: auto;
-    margin-top: 1rem;
-    padding: 20px 70px;
-  }
-  .contact-bg .address .ph {
-    color: #fff;
-    font-size: 30px;
-    font-family: 'Luckiest Guy', cursive;
-    color: transparent;
-     -webkit-text-stroke-width: 0.5px;
-     -webkit-text-stroke-color: rgb(255, 255, 255);
-  }
-  .contact-bg .address .pa {
-    color: rgb(219, 219, 219);
-    margin-top: 0.7rem;
-    font-family: 'Quicksand', sans-serif;
-  }
-  .contact-footer {
-    width: 100%;
-    height: auto;
-    background: rgba( 0, 0, 0, 0.25 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 30px 30px 0 0;
-   position: absolute;
-   bottom: 0;
-   text-align: center;
-   padding: 20px;
-  }
-  .contact-footer .footer-text {
-    color: rgba(255, 255, 255, 0.637);
-    font-size: 16px;
-    font-family: 'Quicksand', sans-serif;
-    margin-bottom: 1.5rem;
-  }
-  .contact-footer .right {
-    color: rgba(255, 255, 255, 0.89);
-    font-family: 'Quicksand', sans-serif;
+}
+.contact-bg {
+  width: 100%;
+  height: 300px;
+  border-radius: 0 0 30px 30px;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(92, 94, 112, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.contact-us-header {
+  color: #fff;
+  text-align: center;
+  font-size: 14vw;
+  margin-top: 5rem;
+  font-family: "Luckiest Guy", cursive;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
+.contact-bg .social-btn {
+  width: 100%;
+  height: auto;
+  padding: 20px 80px;
+}
+.btn1 {
+  display: flex;
+  justify-content: space-between;
+}
+.btn2 {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin: 2rem auto 0 auto;
+}
+.contact-bg .social-btn .facebook,
+.contact-bg .social-btn .twitter,
+.contact-bg .social-btn .insta,
+.contact-bg .social-btn .tiktok,
+.contact-bg .social-btn .linked,
+.contact-bg .social-btn .whatsapp,
+.contact-bg .social-btn .telegram {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+}
+.contact-bg .social-btn .facebook:hover,
+.contact-bg .social-btn .twitter:hover,
+.contact-bg .social-btn .insta:hover,
+.contact-bg .social-btn .tiktok:hover,
+.contact-bg .social-btn .linked:hover,
+.contact-bg .social-btn .whatsapp:hover,
+.contact-bg .social-btn .telegram:hover {
+  background: transparent;
+  transition: all 550ms;
+}
 
+.contact-bg .address {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  padding: 20px 70px;
+}
+.contact-bg .address .ph {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Luckiest Guy", cursive;
+  color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.contact-bg .address .pa {
+  color: rgb(219, 219, 219);
+  margin-top: 0.7rem;
+  font-family: "Quicksand", sans-serif;
+}
+.contact-footer {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 30px 30px 0 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 20px;
+}
+.contact-footer .footer-text {
+  color: rgba(255, 255, 255, 0.637);
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 1.5rem;
+}
+.contact-footer .right {
+  color: rgba(255, 255, 255, 0.89);
+  font-family: "Quicksand", sans-serif;
+}
 
 video {
   object-fit: cover;
@@ -568,60 +545,64 @@ video {
   z-index: -1;
 }
 #home-top-video {
-    left: 0%;
-    top: 0%;
-    height: 230vh;
-    width: 100%;
-    overflow: hidden;
-    position: absolute;
-    z-index: -1;
-    display: flex;
-    justify-content: center;
-    padding:  150px 100px 0 100px;
-  }
-  .intro {
-      width: 900px;
-      height: auto;
-      z-index: 1;
-      color: #fff;
-  }
-  .intro p {
-    line-height: 30px;
-    font-size: 20px;
-    letter-spacing: 11x;
-    font-family: 'Quicksand', sans-serif;
-  }
-  .intro .about-header {
-    font-family: 'Bebas Neue', cursive;
-    margin-bottom: 4rem;
-    text-align: center;
-    letter-spacing: 8px;
-    font-size: 40px;
-  }
-  .intro .about-sub-header {
-     font-family: 'Nunito', sans-serif;
-    margin-bottom: 2.5rem;
-    text-align: center;
-    letter-spacing: 3px;
-    font-size: 30px;
-  }
-  .intro .benefit-header{
-    font-family: 'Nunito', sans-serif;
-    margin-bottom: 2.5rem;
-    text-align: center;
-    letter-spacing: 2px;
-    font-size: 30px;
-    margin-top: 4rem;
-  }
-#home-top-video:before {
-  content:"";
+  left: 0%;
+  top: 0%;
+  height: 230vh;
+  width: 100%;
+  overflow: hidden;
   position: absolute;
-  top:0;
-  right:0;
-  left:0;
-  bottom:0;
-  z-index:1;
-  background:linear-gradient(to right,rgba(0, 0, 0, 0.815),rgba(0, 0, 0, 0.815));
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  padding: 150px 100px 0 100px;
+}
+.intro {
+  width: 900px;
+  height: auto;
+  z-index: 1;
+  color: #fff;
+}
+.intro p {
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 11x;
+  font-family: "Quicksand", sans-serif;
+}
+.intro .about-header {
+  font-family: "Bebas Neue", cursive;
+  margin-bottom: 4rem;
+  text-align: center;
+  letter-spacing: 8px;
+  font-size: 40px;
+}
+.intro .about-sub-header {
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+.intro .benefit-header {
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  margin-top: 4rem;
+}
+#home-top-video:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.815),
+    rgba(0, 0, 0, 0.815)
+  );
 }
 .intro .benefit-list {
   display: flex;
@@ -641,47 +622,46 @@ video {
     z-index: -1;
     display: flex;
     justify-content: center;
-    padding:  100px 20px 0 20px;
+    padding: 100px 20px 0 20px;
   }
   .intro {
     width: 100%;
     z-index: 1;
     color: #fff;
+  }
+  .intro .about-sub-header {
+    font-size: 6vw;
+    letter-spacing: 2px;
+  }
+  .intro p {
+    line-height: 30px;
+    font-size: 4.5vw;
+    letter-spacing: 11x;
+    font-family: "Quicksand", sans-serif;
+  }
+  .intro .about-header {
+    margin-bottom: 4rem;
+  }
+  .intro .benefit-header {
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 6.5vw;
+    margin-top: 4rem;
+  }
+  .contact-footer-about .footer-text {
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 2.5vw;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 0.3rem;
+  }
+  .contact-footer-about .right {
+    color: rgba(255, 255, 255, 0.89);
+    font-family: "Quicksand", sans-serif;
+    font-size: 8px;
+  }
 }
-.intro .about-sub-header {
- font-size: 6vw;
- letter-spacing: 2px;
-}
-.intro p {
-  line-height: 30px;
-  font-size: 4.5vw;
-  letter-spacing: 11x;
-  font-family: 'Quicksand', sans-serif;
-}
-.intro .about-header {
-  margin-bottom: 4rem;
-}
-.intro .benefit-header{
-  font-family: 'Nunito', sans-serif;
-  margin-bottom: 2.5rem;
-  text-align: center;
-  letter-spacing: 2px;
-  font-size: 6.5vw;
-  margin-top: 4rem;
-}
-.contact-footer-about .footer-text {
-  color: rgba(255, 255, 255, 0.637);
-  font-size: 2.5vw;
-  font-family: 'Quicksand', sans-serif;
-  margin-bottom: 0.3rem;
-}
-.contact-footer-about .right {
-  color: rgba(255, 255, 255, 0.89);
-  font-family: 'Quicksand', sans-serif;
-  font-size: 8px;
-}
-}
-
 
 /* contact */
 /* Extra small devices (phones, 600px and down) */
@@ -691,36 +671,32 @@ video {
     height: 100vh;
     padding: 0;
     background: #000000;
-    background-image:
-  linear-gradient(
-    #000000a9, 
-    #000000d5
-    ), url(./img/ladingPageImg2.jpg);
-  background-position: center;
-  background-size: cover;
-  position: relative;
+    background-image: linear-gradient(#000000a9, #000000d5),
+      url(./img/ladingPageImg2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
   }
   .contact-bg {
     width: 100%;
     height: 300px;
     border-radius: 0 0 30px 30px;
-    background: rgba( 0, 0, 0, 0.25 );
+    background: rgba(0, 0, 0, 0.25);
     box-shadow: 0 8px 32px 0 rgba(92, 94, 112, 0.37);
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-   
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
   }
   .contact-us-header {
     color: #fff;
     text-align: center;
     font-size: 14vw;
-   margin-top: 5rem;
-   font-family: 'Luckiest Guy', cursive;
-   color: transparent;
+    margin-top: 5rem;
+    font-family: "Luckiest Guy", cursive;
+    color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
   }
-  
+
   .contact-bg .social-btn {
     width: 100%;
     height: auto;
@@ -736,28 +712,28 @@ video {
     width: 220px;
     margin: 1rem auto 0 auto;
   }
-  .contact-bg .social-btn .facebook ,
+  .contact-bg .social-btn .facebook,
   .contact-bg .social-btn .twitter,
   .contact-bg .social-btn .insta,
   .contact-bg .social-btn .tiktok,
   .contact-bg .social-btn .linked,
   .contact-bg .social-btn .whatsapp,
-  .contact-bg .social-btn .telegram{
+  .contact-bg .social-btn .telegram {
     width: 40px;
     height: 40px;
     border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
     cursor: pointer;
   }
-  .contact-bg .social-btn .facebook:hover ,
+  .contact-bg .social-btn .facebook:hover,
   .contact-bg .social-btn .twitter:hover,
   .contact-bg .social-btn .insta:hover,
   .contact-bg .social-btn .tiktok:hover,
@@ -767,7 +743,7 @@ video {
     background: transparent;
     transition: all 550ms;
   }
-  
+
   .contact-bg .address {
     width: 100%;
     height: auto;
@@ -777,77 +753,149 @@ video {
   .contact-bg .address .ph {
     color: #fff;
     font-size: 5.5vw;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: "Luckiest Guy", cursive;
     color: transparent;
-     -webkit-text-stroke-width: 0.5px;
-     -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
   }
   .contact-bg .address .pa {
     color: rgb(219, 219, 219);
     margin-top: 0.7rem;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
   }
   .contact-footer {
     width: 100%;
     height: auto;
-    background: rgba( 0, 0, 0, 0.25 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     border-radius: 30px 30px 0 0;
-   position: absolute;
-   bottom: 0;
-   text-align: center;
-   padding: 20px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
   }
   .contact-footer .footer-text {
     color: rgba(255, 255, 255, 0.637);
     font-size: 4vw;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     margin-bottom: 1.5rem;
   }
   .contact-footer .right {
     color: rgba(255, 255, 255, 0.89);
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
   }
 
+  /* Beneficiary */
+.beneficiary-container {
+  background-color: #DC882E;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 120px;
 }
 
-@media screen and (min-width: 951px){
+.illus-container {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.illus-container h1 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#slider {
+  position: relative;
+  width: 450px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+#slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+  transition: all 750ms ease;
+  left: 0;
+}
+#slider ul li {
+  position: relative;
+  height: 100%;
+
+  float: left;
+}
+#slider ul li img {
+  width: 450px;
+}
+#slider #prev,
+#slider #next {
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+}
+#slider #prev {
+  left: 10px;
+}
+#slider #next {
+  right: 10px;
+}
+
+#slider #prev:hover, #slider #next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0;
+}
+}
+
+@media screen and (min-width: 951px) {
   .contact-us-bg {
     width: 100%;
     height: 130vh;
     padding: 0;
     background: #000000;
-    background-image:
-  linear-gradient(
-    #000000a9, 
-    #000000d5
-    ), url(./img/ladingPageImg2.jpg);
-  background-position: center;
-  background-size: cover;
-  position: relative;
+    background-image: linear-gradient(#000000a9, #000000d5),
+      url(./img/ladingPageImg2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
   }
   .contact-bg {
     width: 600px;
     height: auto;
     border-radius: 0 0 30px 30px;
-    background: rgba( 0, 0, 0, 0.25 );
+    background: rgba(0, 0, 0, 0.25);
     box-shadow: 0 8px 32px 0 rgba(92, 94, 112, 0.37);
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     padding: 30px 80px;
   }
   .contact-us-header {
     color: #fff;
     text-align: center;
     font-size: 14vw;
-   margin-top: 5rem;
-   font-family: 'Luckiest Guy', cursive;
-   color: transparent;
+    margin-top: 5rem;
+    font-family: "Luckiest Guy", cursive;
+    color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
   }
-  
+
   .contact-bg .social-btn {
     width: 100%;
     height: auto;
@@ -863,28 +911,28 @@ video {
     width: 220px;
     margin: 1rem auto 0 auto;
   }
-  .contact-bg .social-btn .facebook ,
+  .contact-bg .social-btn .facebook,
   .contact-bg .social-btn .twitter,
   .contact-bg .social-btn .insta,
   .contact-bg .social-btn .tiktok,
   .contact-bg .social-btn .linked,
   .contact-bg .social-btn .whatsapp,
-  .contact-bg .social-btn .telegram{
+  .contact-bg .social-btn .telegram {
     width: 40px;
     height: 40px;
     border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
     cursor: pointer;
   }
-  .contact-bg .social-btn .facebook:hover ,
+  .contact-bg .social-btn .facebook:hover,
   .contact-bg .social-btn .twitter:hover,
   .contact-bg .social-btn .insta:hover,
   .contact-bg .social-btn .tiktok:hover,
@@ -894,7 +942,7 @@ video {
     background: transparent;
     transition: all 550ms;
   }
-  
+
   .contact-bg .address {
     width: 100%;
     height: auto;
@@ -904,49 +952,115 @@ video {
   .contact-bg .address .ph {
     color: #fff;
     font-size: 30px;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: "Luckiest Guy", cursive;
     color: transparent;
-     -webkit-text-stroke-width: 0.5px;
-     -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
   }
   .contact-bg .address .pa {
     color: rgb(219, 219, 219);
     margin-top: 0.7rem;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 18px;
   }
   .contact-footer {
     width: 100%;
     height: auto;
-    background: rgba( 0, 0, 0, 0.25 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     border-radius: 30px 30px 0 0;
-   position: absolute;
-   bottom: 0;
-   text-align: center;
-   padding: 20px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
   }
   .contact-footer .footer-text {
     color: rgba(255, 255, 255, 0.637);
     font-size: 18px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     margin-bottom: 1.5rem;
   }
   .contact-footer .right {
     color: rgba(255, 255, 255, 0.89);
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
   }
-  
 }
 
+/* Beneficiary */
+.beneficiary-container {
+  background-color: #DC882E;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 120px;
+}
 
+.illus-container {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.illus-container h1 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+#slider {
+  position: relative;
+  width: 450px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+#slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+  transition: all 750ms ease;
+  left: 0;
+}
+#slider ul li {
+  position: relative;
+  height: 100%;
 
+  float: left;
+}
+#slider ul li img {
+  width: 450px;
+}
+#slider #prev,
+#slider #next {
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+}
+#slider #prev {
+  left: 10px;
+}
+#slider #next {
+  right: 10px;
+}
 
-
-
-
-
+#slider #prev:hover, #slider #next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0;
+}
 
 
